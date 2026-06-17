@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-connection",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WhatsApp Cloud API webhook that echoes incoming messages.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
